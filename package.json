@@ -1,0 +1,22 @@
+{
+  "name": "lambda-horrors",
+  "version": "1.0.0",
+  "description": "A demonstration of some awful things you can do if you give your Lambda's role full access to the Lambda API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodle/lambda-horrors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodle/lambda-horrors/issues"
+  },
+  "homepage": "https://github.com/sodle/lambda-horrors#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1209.0"
+  }
+}

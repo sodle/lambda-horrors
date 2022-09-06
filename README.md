@@ -19,3 +19,9 @@ This Lambda deletes itself from AWS.
 # SelfReplicate
 
 This Lambda creates a copy of itself in the same acct/region.
+
+# GreyGoo
+
+This Lambda creates two copies of itself in the same acct/region, then invokes them.
+
+It panics and exits if the account/region already contains more than 100 Lambda functions, because I'm not completely evil.
